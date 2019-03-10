@@ -31,10 +31,11 @@ nav a {
 }
 
 nav li {
-    font-family: ﻿Lato-Bold, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-family: 'Lato Regular', sans-serif;
     font-size: 7.21379pt;
     color: rgba(255, 255, 255, 255);
     z-index: 2;
+    font-weight: 500px; 
 }
 
 .menu {
@@ -59,8 +60,8 @@ nav li {
     margin-left: 100px;
 }
 
-.menu .PORTFOLIO a {
-	color: #2eb398;
+.menu a:hover {
+    color: #2eb398;
 }
 
 .menu a {
@@ -112,6 +113,9 @@ nav li {
     left: 410px;
 }
 
+.navigation img:hover{
+    top: -180px;
+}
 
 .hexagon {
     width: 182px;
